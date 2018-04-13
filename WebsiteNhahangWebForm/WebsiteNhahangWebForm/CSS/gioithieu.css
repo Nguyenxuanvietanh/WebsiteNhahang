@@ -1,0 +1,31 @@
+
+/*==================Content==================*/
+#main .gioithieu{
+	background-color: #000;
+}
+	#main .gioithieu-cnt{
+		width: 860px;
+		background-color: #fff;
+		margin: 0px auto;
+		padding: 20px;
+	}
+	
+		#main .gioithieu-cnt .title{
+			font: bold 20px "Times New Roman", Times, serif;
+			color: red;
+		}
+		
+		#main .gioithieu-cnt .time{}
+		
+		#main .gioithieu-cnt .content{}
+			
+			#main .gioithieu-cnt .content ul{}
+			
+				#main .gioithieu-cnt .content ul li{}
+				
+					#main .gioithieu-cnt .content ul li .image{
+						width: 100%;
+						margin-left: 30px;
+					}
+					
+					#main .gioithieu-cnt .content ul li .text{}

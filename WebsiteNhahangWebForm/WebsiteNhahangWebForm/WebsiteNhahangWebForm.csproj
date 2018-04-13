@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E254242A-EA14-4AE3-920A-BBF740766642}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebsiteNhahangWebForm</RootNamespace>
+    <AssemblyName>WebsiteNhahangWebForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Recaptcha, Version=1.0.5.0, Culture=neutral, PublicKeyToken=9afc4d65b28c38c2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\captcha\Recaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\Admin\chdt.css" />
+    <Content Include="CSS\Admin\qldathang.css" />
+    <Content Include="CSS\Admin\qldatban.css" />
+    <Content Include="CSS\Admin\qlgt.css" />
+    <Content Include="CSS\Admin\qlkm.css" />
+    <Content Include="CSS\Admin\qlloaisp.css" />
+    <Content Include="CSS\Admin\qlmenu.css" />
+    <Content Include="CSS\Admin\qlsanpham.css" />
+    <Content Include="CSS\Admin\qlthanhvien.css" />
+    <Content Include="CSS\Admin\suakm.css" />
+    <Content Include="CSS\Admin\suattloaisp.css" />
+    <Content Include="CSS\Admin\suaTTSP.css" />
+    <Content Include="CSS\dangky.css" />
+    <Content Include="CSS\dathang.css" />
+    <Content Include="CSS\giohang1.css" />
+    <Content Include="CSS\loaisanpham.css" />
+    <Content Include="CSS\loaisp.css" />
+    <Content Include="CSS\Menusp.css" />
+    <Content Include="CSS\popup.css" />
+    <Content Include="CSS\sanpham.css" />
+    <Content Include="Html\Admin\AdminHome.aspx" />
+    <Content Include="Html\Admin\QLCTDDH.aspx" />
+    <Content Include="Html\Admin\QLDatBan.aspx" />
+    <Content Include="Html\Admin\QLDatHang.aspx" />
+    <Content Include="Html\Admin\QLGD.aspx" />
+    <Content Include="Html\Admin\QLGT.aspx" />
+    <Content Include="Html\Admin\QLKM.aspx" />
+    <Content Include="Html\Admin\QLLoaiSP.aspx" />
+    <Content Include="Html\Admin\QLMenu.aspx" />
+    <Content Include="Html\Admin\QLSanPham.aspx" />
+    <Content Include="Html\Admin\QLThanhVien.aspx" />
+    <Content Include="Html\Admin\SuaKM.aspx" />
+    <Content Include="Html\Admin\SuaTTLoaiSP.aspx" />
+    <Content Include="Html\Admin\SuaTTSP.aspx" />
+    <Content Include="Html\Dangky.aspx" />
+    <Content Include="Html\Dangnhap.aspx" />
+    <Content Include="Html\Datban.aspx" />
+    <Content Include="Html\Dathang.aspx" />
+    <Content Include="Html\Doimatkhau.aspx" />
+    <Content Include="Html\Giohang.aspx" />
+    <Content Include="Html\Gioithieu.aspx" />
+    <Content Include="Html\index.aspx" />
+    <Content Include="Html\Khuyenmai.aspx" />
+    <Content Include="Html\LoaiSP.aspx" />
+    <Content Include="Html\MenuSP.aspx" />
+    <Content Include="Html\Sanpham.aspx" />
+    <Content Include="Html\TTGiaohang.aspx" />
+    <Content Include="Html\TTThanhvien.aspx" />
+    <Content Include="Html\TTKhuyenmai.aspx" />
+    <Content Include="Image\BigImage\1.png" />
+    <Content Include="Image\BigImage\2.png" />
+    <Content Include="Image\BigImage\3.png" />
+    <Content Include="Image\BigImage\4.png" />
+    <Content Include="Image\BigImage\5.png" />
+    <Content Include="Image\BigImage\6.png" />
+    <Content Include="Image\BigImage\7.png" />
+    <Content Include="Image\BigImage\8.png" />
+    <Content Include="Image\btnSua.png" />
+    <Content Include="Image\btnXoa.jpg" />
+    <Content Include="Image\chitiet.jpg" />
+    <Content Include="Image\down.gif" />
+    <Content Include="Image\gioithieu\1.png" />
+    <Content Include="Image\gioithieu\2.png" />
+    <Content Include="Image\gioithieu\3.png" />
+    <Content Include="Image\gioithieu\4.png" />
+    <Content Include="Image\gioithieu\5.png" />
+    <Content Include="Image\khuyenmai\KM01.jpg" />
+    <Content Include="Image\khuyenmai\KM02.jpg" />
+    <Content Include="Image\khuyenmai\KM03.jpg" />
+    <Content Include="Image\SanPham\BE01.png" />
+    <Content Include="Image\SanPham\BE02.png" />
+    <Content Include="Image\SanPham\BE03.png" />
+    <Content Include="Image\SanPham\BE04.png" />
+    <Content Include="Image\SanPham\BE05.png" />
+    <Content Include="Image\SanPham\BE06.png" />
+    <Content Include="Image\SanPham\BE07.png" />
+    <Content Include="Image\SanPham\BE08.png" />
+    <Content Include="Image\SanPham\BE09.png" />
+    <Content Include="Image\SanPham\HS01.png" />
+    <Content Include="Image\SanPham\HS02.png" />
+    <Content Include="Image\SanPham\HS03.png" />
+    <Content Include="Image\SanPham\HS04.png" />
+    <Content Include="Image\SanPham\HS05.png" />
+    <Content Include="Image\SanPham\HS06.png" />
+    <Content Include="Image\SanPham\HS07.png" />
+    <Content Include="Image\SanPham\HS08.png" />
+    <Content Include="Image\SanPham\HS09.png" />
+    <Content Include="Image\SanPham\KV01.png" />
+    <Content Include="Image\SanPham\KV02.png" />
+    <Content Include="Image\SanPham\KV03.png" />
+    <Content Include="Image\SanPham\KV04.png" />
+    <Content Include="Image\SanPham\KV05.png" />
+    <Content Include="Image\SanPham\KV06.png" />
+    <Content Include="Image\SanPham\KV07.png" />
+    <Content Include="Image\SanPham\KV08.png" />
+    <Content Include="Image\SanPham\KV09.png" />
+    <Content Include="Image\SanPham\LA01.png" />
+    <Content Include="Image\SanPham\LA02.png" />
+    <Content Include="Image\SanPham\LA03.png" />
+    <Content Include="Image\SanPham\LA04.png" />
+    <Content Include="Image\SanPham\LA05.png" />
+    <Content Include="Image\SanPham\LA06.png" />
+    <Content Include="Image\SanPham\LA07.png" />
+    <Content Include="Image\SanPham\LA08.png" />
+    <Content Include="Image\SanPham\LA09.png" />
+    <Content Include="Image\SanPham\NN01.png" />
+    <Content Include="Image\SanPham\NN02.png" />
+    <Content Include="Image\SanPham\NN03.png" />
+    <Content Include="Image\SanPham\NN04.png" />
+    <Content Include="Image\SanPham\NN05.png" />
+    <Content Include="Image\SanPham\NN06.png" />
+    <Content Include="Image\SanPham\NN07.png" />
+    <Content Include="Image\SanPham\NN08.png" />
+    <Content Include="Image\SanPham\NN09.png" />
+    <Content Include="Image\SanPham\RU01.png" />
+    <Content Include="Image\SanPham\RU02.png" />
+    <Content Include="Image\SanPham\RU03.png" />
+    <Content Include="Image\SanPham\RU04.png" />
+    <Content Include="Image\SanPham\RU05.png" />
+    <Content Include="Image\SanPham\RU06.png" />
+    <Content Include="Image\SanPham\RU07.png" />
+    <Content Include="Image\SanPham\RU08.png" />
+    <Content Include="Image\SanPham\RU09.png" />
+    <Content Include="Image\shoppingcart.png" />
+    <Content Include="Image\up.gif" />
+    <Content Include="Image\Update.png" />
+    <Content Include="Jquery\Datban\jquery-1.12.4.js" />
+    <Content Include="Jquery\Datban\jquery-ui.css" />
+    <Content Include="Jquery\Datban\jquery-ui.js" />
+    <Content Include="Jquery\jquery.carousel-3d.default.css" />
+    <Content Include="Jquery\jquery.carousel-3d.js" />
+    <Content Include="Jquery\jquery.js" />
+    <Content Include="Jquery\jquery.min.js" />
+    <Content Include="Jquery\jquery.resize.js" />
+    <Content Include="Jquery\jquery.waitforimages.js" />
+    <Content Include="Jquery\menuadmin.js" />
+    <Content Include="Jquery\modernizr.js" />
+    <Content Include="Jquery\thuvien.js" />
+    <Content Include="JVS\boostrap.min.css" />
+    <Content Include="JVS\boostrap.min.js" />
+    <Content Include="JVS\jquery-3.1.1.js" />
+    <Content Include="MasterPage\Admin.css" />
+    <Content Include="MasterPage\MasterPage.Master" />
+    <Content Include="MasterPage\Admin.Master" />
+    <None Include="Properties\PublishProfiles\LeeORestaurant - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\LeeORestaurant - Web Deploy.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\Admin\admin.css" />
+    <Content Include="CSS\datban.css" />
+    <Content Include="CSS\doimatkhau.css" />
+    <Content Include="CSS\giohang.css" />
+    <Content Include="CSS\gioithieu.css" />
+    <Content Include="CSS\khuyenmai.css" />
+    <Content Include="CSS\login.css" />
+    <Content Include="CSS\reset.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="CSS\ttgiaohang.css" />
+    <Content Include="CSS\ttkhachhang.css" />
+    <Content Include="CSS\ttkm.css" />
+    <Content Include="Image\1.gif" />
+    <Content Include="Image\1.png" />
+    <Content Include="Image\123.gif" />
+    <Content Include="Image\banner-cnt.gif" />
+    <Content Include="Image\banner.gif" />
+    <Content Include="Image\bannercnt.png" />
+    <Content Include="Image\bannercnt1.png" />
+    <Content Include="Image\BigImage\01.gif" />
+    <Content Include="Image\BigImage\02.gif" />
+    <Content Include="Image\BigImage\03.gif" />
+    <Content Include="Image\BigImage\04.gif" />
+    <Content Include="Image\BigImage\05.gif" />
+    <Content Include="Image\BigImage\06.gif" />
+    <Content Include="Image\bigimg1.gif" />
+    <Content Include="Image\cart-icon.png" />
+    <Content Include="Image\coollogo_com-28035118.gif" />
+    <Content Include="Image\cooltext232648627212141.png" />
+    <Content Include="Image\datban\5.gif" />
+    <Content Include="Image\datban\imgdatban.jpg" />
+    <Content Include="Image\delete-2-xxl.png" />
+    <Content Include="Image\hoadao.png" />
+    <Content Include="Image\hoavan.gif" />
+    <Content Include="Image\Home.png" />
+    <Content Include="Image\iconCartPro_.png" />
+    <Content Include="Image\iconfacbook.png" />
+    <Content Include="Image\iconyoutube.png" />
+    <Content Include="Image\images.jpg" />
+    <Content Include="Image\instagram-5-512.png" />
+    <Content Include="Image\logo.gif" />
+    <Content Include="Image\logo.png" />
+    <Content Include="Image\menu.gif" />
+    <Content Include="Image\next.png" />
+    <Content Include="Image\prev.png" />
+    <Content Include="Image\themsp.jpg" />
+    <Content Include="MasterPage\StyleSheet.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Appdata\CartItems.cs" />
+    <Compile Include="Appdata\Product.cs" />
+    <Compile Include="Appdata\ShoppingCart.cs" />
+    <Compile Include="Appdata\XLDL.cs" />
+    <Compile Include="Html\Admin\AdminHome.aspx.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\AdminHome.aspx.designer.cs">
+      <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLCTDDH.aspx.cs">
+      <DependentUpon>QLCTDDH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLCTDDH.aspx.designer.cs">
+      <DependentUpon>QLCTDDH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLDatBan.aspx.cs">
+      <DependentUpon>QLDatBan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLDatBan.aspx.designer.cs">
+      <DependentUpon>QLDatBan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLDatHang.aspx.cs">
+      <DependentUpon>QLDatHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLDatHang.aspx.designer.cs">
+      <DependentUpon>QLDatHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLGD.aspx.cs">
+      <DependentUpon>QLGD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLGD.aspx.designer.cs">
+      <DependentUpon>QLGD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLGT.aspx.cs">
+      <DependentUpon>QLGT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLGT.aspx.designer.cs">
+      <DependentUpon>QLGT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLKM.aspx.cs">
+      <DependentUpon>QLKM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLKM.aspx.designer.cs">
+      <DependentUpon>QLKM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLLoaiSP.aspx.cs">
+      <DependentUpon>QLLoaiSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLLoaiSP.aspx.designer.cs">
+      <DependentUpon>QLLoaiSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLMenu.aspx.cs">
+      <DependentUpon>QLMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLMenu.aspx.designer.cs">
+      <DependentUpon>QLMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLSanPham.aspx.cs">
+      <DependentUpon>QLSanPham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLSanPham.aspx.designer.cs">
+      <DependentUpon>QLSanPham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\QLThanhVien.aspx.cs">
+      <DependentUpon>QLThanhVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\QLThanhVien.aspx.designer.cs">
+      <DependentUpon>QLThanhVien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\SuaKM.aspx.cs">
+      <DependentUpon>SuaKM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\SuaKM.aspx.designer.cs">
+      <DependentUpon>SuaKM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\SuaTTLoaiSP.aspx.cs">
+      <DependentUpon>SuaTTLoaiSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\SuaTTLoaiSP.aspx.designer.cs">
+      <DependentUpon>SuaTTLoaiSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Admin\SuaTTSP.aspx.cs">
+      <DependentUpon>SuaTTSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Admin\SuaTTSP.aspx.designer.cs">
+      <DependentUpon>SuaTTSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Dangky.aspx.cs">
+      <DependentUpon>Dangky.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Dangky.aspx.designer.cs">
+      <DependentUpon>Dangky.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Dangnhap.aspx.cs">
+      <DependentUpon>Dangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Dangnhap.aspx.designer.cs">
+      <DependentUpon>Dangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Datban.aspx.cs">
+      <DependentUpon>Datban.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Datban.aspx.designer.cs">
+      <DependentUpon>Datban.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Dathang.aspx.cs">
+      <DependentUpon>Dathang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Dathang.aspx.designer.cs">
+      <DependentUpon>Dathang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Doimatkhau.aspx.cs">
+      <DependentUpon>Doimatkhau.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Doimatkhau.aspx.designer.cs">
+      <DependentUpon>Doimatkhau.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Giohang.aspx.cs">
+      <DependentUpon>Giohang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Giohang.aspx.designer.cs">
+      <DependentUpon>Giohang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Gioithieu.aspx.cs">
+      <DependentUpon>Gioithieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Gioithieu.aspx.designer.cs">
+      <DependentUpon>Gioithieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Khuyenmai.aspx.cs">
+      <DependentUpon>Khuyenmai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Khuyenmai.aspx.designer.cs">
+      <DependentUpon>Khuyenmai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\LoaiSP.aspx.cs">
+      <DependentUpon>LoaiSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\LoaiSP.aspx.designer.cs">
+      <DependentUpon>LoaiSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\MenuSP.aspx.cs">
+      <DependentUpon>MenuSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\MenuSP.aspx.designer.cs">
+      <DependentUpon>MenuSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\Sanpham.aspx.cs">
+      <DependentUpon>Sanpham.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\Sanpham.aspx.designer.cs">
+      <DependentUpon>Sanpham.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\TTGiaohang.aspx.cs">
+      <DependentUpon>TTGiaohang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\TTGiaohang.aspx.designer.cs">
+      <DependentUpon>TTGiaohang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\TTThanhvien.aspx.cs">
+      <DependentUpon>TTThanhvien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\TTThanhvien.aspx.designer.cs">
+      <DependentUpon>TTThanhvien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Html\TTKhuyenmai.aspx.cs">
+      <DependentUpon>TTKhuyenmai.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Html\TTKhuyenmai.aspx.designer.cs">
+      <DependentUpon>TTKhuyenmai.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53952</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53952/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

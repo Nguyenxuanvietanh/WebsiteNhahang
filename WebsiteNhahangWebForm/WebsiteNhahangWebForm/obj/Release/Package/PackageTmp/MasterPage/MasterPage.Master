@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WebsiteNhahangWebForm.MasterPage.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Nguyễn Xuân Việt Anh</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="main">
+        <!-- HEADER -->
+        <div class="header">
+
+            <div class="banner">
+                <div class="logo">
+                    <img src="../Image/logo.gif" width="119" height="110" />
+                </div>
+
+                <div class="banner-cnt">
+                    <img src="../Image/banner-cnt.gif" width="511" height="100" style="margin-top: 10px; " />
+                    <div class="login" style="margin: -20px 0 0 730px;">
+                        <asp:Label ID="lblChao" runat="server" ForeColor="White" Font-Bold="False"></asp:Label>
+                        <asp:HyperLink ID="hplTenTV" runat="server" Font-Bold="True" Font-Italic="True" ForeColor="White" NavigateUrl="~/Html/TTThanhvien.aspx"></asp:HyperLink>
+                        <asp:HyperLink ID="hpl1" runat="server" ForeColor="White" NavigateUrl="~/HTML/Dangnhap.aspx">Đăng nhập</asp:HyperLink>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu">
+                <ul style="margin-left: 300px;">
+                    <%= menu %>
+                </ul>
+                <a style="float: right; margin-right: 20px;" href="Giohang.aspx">
+                    <img src="../Image/shoppingcart.png" />
+                </a>
+            </div>
+        </div>
+
+        <!-- IMAGE -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="footer-bgr">
+            </div>
+
+            <div class="footer-info">
+                <ul>
+                    <br />
+                    <li style="margin-left:150px;">
+                        THÔNG TIN NHÀ HÀNG
+                        <ul style="margin-left: 0;">
+                            <li>Địa chỉ: Phạm Ngũ Lão, phường Hiệp Thành, tp Thủ Dầu Một, Bình Dương.</li>
+                            <br />
+                            <li>Số điện thoại : 01644 671 469</li>
+                            <br />
+                            <li>Hotline: 1900 1009</li>
+                        </ul>
+                    </li>
+
+                    <li style="margin-left: 100px;">
+                        GIỜ MỞ CỬA
+                        <ul style="margin-left: 50px;">
+                            <li>8:00 ~ 24:00</li>
+                            <br />
+                            <li>Thứ 2 ~ Chủ Nhật</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        SOCIAL NETWORK<br />
+                        <ul style="margin-left: 100px;">
+                            <li><a href="https://www.facebook.com/groups/600001900178556/?fref=ts"><img src="../Image/iconfacbook.png" /></a></li>
+                            <li style="margin-left: -80px;"><a href="https://www.youtube.com/channel/UCrfHMK6HHgCkscnMfU9AMTA"><img src="../Image/iconyoutube.png" /></a></li>
+                            <li style="margin-left: -80px;"><a href="https://www.instagram.com/nguyenxuanvietanhdh/"><img src="../Image/instagram-5-512.png" /></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>
+        

@@ -1,0 +1,61 @@
+
+/*==================Content==================*/
+#main .khuyenmai{
+	background-color: #000;
+	opacity: 1;
+}
+	
+	#main .khuyenmai .khuyenmai-cnt{
+		width: 800px;
+		background-color:#fff;
+		padding: 20px;
+		margin: 0px auto;
+	}
+	
+		#main .khuyenmai .khuyenmai-cnt ul{}
+		
+			#main .khuyenmai .khuyenmai-cnt ul li{
+				height: 180px;
+				background-color: #0FC;
+				margin-top: 20px;
+				padding: 10px
+			}
+			
+			 .img-km{
+					width: 180px;
+					height: 180px;
+					float: left;
+					background-color: #FFF;
+				}
+				
+			 .cnt-km{
+					width: 580px;	
+					margin-left: 200px;
+					text-align: left;
+					background-color: #fff;
+				}
+				
+					#main .khuyenmai .khuyenmai-cnt ul li .cnt-km .title-km{
+						background-color: #00F5FF;
+						width: 560px;
+						padding: 5px;
+						border: 5px solid #fff;;
+					}
+				
+					#main .khuyenmai .khuyenmai-cnt ul li .cnt-km > .title-km a{
+						font: bold 20px "Times New Roman", Times, serif;
+						color: #F00;
+						
+					}
+					
+				#main .khuyenmai .khuyenmai-cnt ul li .cnt-km .text{
+					padding: 5px;
+					height: 108px;
+				}
+				
+				#main .khuyenmai .khuyenmai-cnt ul li .cnt-km .link-km{
+					text-align: right;
+					font-style: italic;
+					text-decoration: underline;
+					margin-right: 30px;
+				}

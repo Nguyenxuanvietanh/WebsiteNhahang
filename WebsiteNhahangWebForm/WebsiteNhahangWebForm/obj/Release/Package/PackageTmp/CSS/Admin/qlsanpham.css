@@ -1,0 +1,36 @@
+﻿/*-------------------Content-------------------*/
+#main .content{
+	background-color: #FFF;
+	padding: 20px;
+	text-align: center;
+	margin-left: 231px;
+}
+
+	#main .content .themsp{
+		background-color: #999;
+		margin-top: 50px;
+		border: 1px solid #333;
+		border-radius: 10px;
+		padding: 10px;
+	}
+		.input{
+			padding: 5px;
+			border-radius: 6px;
+            width: 173px;
+        }
+		
+		.button{
+			padding: 10px;
+			border: 2px solid #fff;
+			border-radius: 10px;
+			cursor: pointer;
+			font-weight: bold;
+		}
+	
+	#main .content .listsp{
+		background-color: #fff;
+		margin-top: 50px;
+		border: 1px solid #333;
+		border-radius: 10px;
+		padding: 10px;
+	}

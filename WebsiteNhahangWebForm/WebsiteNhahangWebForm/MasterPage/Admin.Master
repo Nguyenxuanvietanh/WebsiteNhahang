@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="WebsiteNhahangWebForm.MasterPage.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin</title>
+    <link href="Admin.css" rel="stylesheet" />
+    <link href="../CSS/reset.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <script src="../Jquery/jquery.min.js"></script>
+        <script src="../Jquery/menuadmin.js"></script>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="main">
+    	<div class="banner" style="text-align: right">
+            <br /><br />
+            <div style="margin-top: 15px">
+                <asp:Label ID="Label1" runat="server" Text="Xin chào admin: " ForeColor="White" Font-Bold="False" Font-Italic="True"></asp:Label>
+                <asp:Label ID="lblTen" runat="server" ForeColor="White" Font-Bold="True"></asp:Label>
+            </div>
+        </div>
+        
+        <div class="menu-left" style="height: 934px;">
+        	<ul>
+            	<li>
+                	<a href="../Admin/AdminHome.aspx" style="width:35px; background-color:#666"><img src="../../Image/Home.png" width="30" height="30" /></a>
+                    <span style="font-weight: bold; font-size:25px;">
+                    	HomeAdmin
+                    </span>
+                </li>
+            	<li><a href="#">QL Giao diện</a>
+                <div class="sign">+</div>
+                	<ul class="sub-menu">
+                    	<li><a href="QLMenu.aspx">Menu</a></li>
+                        <li><a href="QLKM.aspx">Khuyến Mại</a></li>
+                        <li><a href="QLGT.aspx">Giới Thiệu</a></li>
+                    </ul>
+                </li>
+                <li><a href="QLLoaiSP.aspx">QL Loại Sản Phẩm</a>
+                </li>
+                <li><a href="QLSanPham.aspx">QL Sản Phẩm</a>
+                </li>
+                <li><a href="QLDatBan.aspx">QL Đặt Bàn</a></li>
+                <li><a href="QLDatHang.aspx">QL Đặt Hàng</a></li>
+                <li><a href="QLThanhVien.aspx">QL Info Thành Viên</a></li>
+            </ul>
+        </div>
+        
+        <!-- Content -->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        
+        
+        <div class="footer">
+        </div>
+    </div>
+</body>
+</html>

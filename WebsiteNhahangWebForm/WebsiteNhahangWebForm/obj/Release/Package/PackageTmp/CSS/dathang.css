@@ -1,0 +1,36 @@
+﻿#main .dathang{
+	background-color: #000;
+}
+	#main .dathang .content{
+		width: 800px;
+		height: 496px;
+		margin: 0px auto;
+		background-color: #fff;
+		padding: 20px;
+	}
+				
+.input{
+    width: 210px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.button{
+    width: 110px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.validation{
+    color: #f00;
+    font-style: italic;
+}	
+
+.captcha{
+    font-family: 'Colonna MT';
+    font-size: 39px;
+    font-style: italic;
+}
+	

@@ -1,0 +1,38 @@
+
+/*==================IMAGE==================*/
+#main .doimk{
+	height: 536px;
+	background-color: #000;
+	text-align: center;
+}
+
+	#main .doimk .content{
+		height: 536px;
+		width: 800px;
+		margin: 0px auto;
+		background-color: #fff;
+		padding: 20px;
+	}
+	
+	
+	
+	 .input{
+		padding: 5px;
+		width: 215px;
+		border: 1px solid #000;
+		border-radius: 10px;
+	}
+	
+	.button{
+        width: 110px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #000;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+    }
+    .validation{
+        color: #f00;
+        font-style: italic;
+    }

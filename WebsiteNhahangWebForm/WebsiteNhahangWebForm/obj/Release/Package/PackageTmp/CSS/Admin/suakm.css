@@ -1,0 +1,26 @@
+﻿#main .content{
+    height: 934px;
+	background-color: #FFF;
+	padding: 20px;
+	text-align: center;
+	margin-left: 231px;
+}
+
+.input{
+    width: 210px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.button{
+    width: 110px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.validation{
+    color: #f00;
+    font-style: italic;
+}	

@@ -1,0 +1,135 @@
+﻿/* CSS Document */
+*{
+    margin: 0px;
+    padding: 0px
+}
+a{
+	text-decoration:none;
+}
+
+.clr{
+	clear: both;
+}
+
+ul li{
+	list-style: none;
+}
+
+/*==================HEADER==================*/
+#main .header{
+	
+}
+	
+	#main .header .banner{
+		height: 110px;
+		background-color: #000;
+		/*background:url(../Image/banner.gif) left top repeat-x;*/
+		z-index: 1;
+	}
+	
+		#main .header .banner .logo{
+			height: 110px;
+			float: left;
+			margin-left: 515px;
+			z-index: 5;
+		}
+	
+		#main .header .banner .banner-cnt{
+			z-index: 10;
+			height: 110px;
+			margin-left: 540px;
+			z-index: 6;
+		}
+		
+			#main .header .banner .banner-cnt a{
+				color: #fff;
+				font-style: italic;	
+			}
+			
+			#main .header .banner .banner-cnt a:hover{
+				text-decoration: underline;
+			}
+
+            #main .header .banner .banner-cnt .login{
+                
+            }
+	
+	#main .header .menu{
+		height: 35px;
+		background:url(../Image/menu.gif) left top repeat-x;
+	}
+		
+		#main .header .menu ul{
+			
+			
+		}
+		
+			#main .header .menu ul li{
+				float: left;
+				width: 150px;
+				line-height: 35px;
+				text-align: center;
+				position: relative;
+			}
+			
+			#main .header .menu ul li:hover ul{
+				display: block;
+				opacity: 100;
+				position: absolute;
+			}
+			
+				#main .header .menu ul li ul{
+					margin: 0px;
+					z-index: 20;
+					display: none;
+				}
+				
+					#main .header .menu ul li ul li{
+						background-color: #0c0c0c;
+						opacity: 0.8;
+						text-align: center;
+						border-bottom: 1px solid #fff;
+					}
+			
+				#main .header .menu ul li a{
+					color: #fff;
+				}
+.btn-giohang{
+    float: right;
+    margin-right: 20px;
+    line-height: 30px;
+}	
+
+/*==================FOOTER==================*/
+#main .footer{
+
+}
+
+	#main .footer .footer-bgr{
+		background-color: #0c0c0c;
+		height: 98px;
+		z-index: 1;
+	}
+	
+	#main .footer .footer-info{
+		color: #fff;
+		z-index: 10;
+		margin-top: -98px;
+		text-align: center;
+	}
+	
+		#main .footer .footer-info ul{
+			margin-left: 220px;
+		}
+		
+			#main .footer .footer-info ul li{
+				float:left;
+			}
+			
+				#main .footer .footer-info ul > li ul{}
+				
+					#main .footer .footer-info ul > li ul li{
+						width: 150px;
+						font-size:10px;
+						text-align: left;
+					}

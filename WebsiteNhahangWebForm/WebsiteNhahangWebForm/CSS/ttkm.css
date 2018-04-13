@@ -1,0 +1,32 @@
+
+	
+/*==================Content==================*/
+#main .ttkhuyenmai{
+	background-color: #000;
+}
+	#main .ttkm-cnt{
+		width: 860px;
+		background-color: #fff;
+		margin: 0px auto;
+		padding: 20px;
+	}
+	
+		#main .ttkm-cnt .title{
+			font: bold 20px "Times New Roman", Times, serif;
+			color: red;
+		}
+		
+		#main .ttkm-cnt .time{}
+		
+		#main .ttkm-cnt .content{}
+			
+			#main .ttkm-cnt .content ul{}
+			
+				#main .ttkm-cnt .content ul li{}
+				
+					#main .ttkm-cnt .content ul li .image{
+						width: 100%;
+						margin-left: 30px;
+					}
+					
+					#main .ttkm-cnt .content ul li .text{}

@@ -1,0 +1,12 @@
+﻿#main .content{
+	background-color: #FFF;
+	padding: 20px;
+	text-align: center;
+	margin-left: 231px;
+}
+
+.input{
+    padding: 5px;
+	border-radius: 6px;
+    width: 173px;
+}

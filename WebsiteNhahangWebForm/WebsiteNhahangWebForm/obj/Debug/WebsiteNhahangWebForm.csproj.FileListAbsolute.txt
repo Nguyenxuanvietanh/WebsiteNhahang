@@ -1,0 +1,7 @@
+D:\LTWeb\Hoclai\WebsiteNhahangWebForm\WebsiteNhahangWebForm\bin\WebsiteNhahangWebForm.dll.config
+D:\LTWeb\Hoclai\WebsiteNhahangWebForm\WebsiteNhahangWebForm\bin\WebsiteNhahangWebForm.dll
+D:\LTWeb\Hoclai\WebsiteNhahangWebForm\WebsiteNhahangWebForm\bin\WebsiteNhahangWebForm.pdb
+D:\LTWeb\Hoclai\WebsiteNhahangWebForm\WebsiteNhahangWebForm\obj\Debug\WebsiteNhahangWebForm.csprojResolveAssemblyReference.cache
+D:\LTWeb\Hoclai\WebsiteNhahangWebForm\WebsiteNhahangWebForm\obj\Debug\WebsiteNhahangWebForm.dll
+D:\LTWeb\Hoclai\WebsiteNhahangWebForm\WebsiteNhahangWebForm\obj\Debug\WebsiteNhahangWebForm.pdb
+D:\LTWeb\Hoclai\WebsiteNhahangWebForm\WebsiteNhahangWebForm\bin\Recaptcha.pdb

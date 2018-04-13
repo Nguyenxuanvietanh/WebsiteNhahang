@@ -1,0 +1,36 @@
+
+/*==================IMAGE==================*/
+#main .giaohang{
+	height: 536px;
+	background-color: #000;
+	margin: 0px auto;
+	text-align: center;
+}
+
+	#main .giaohang .content{
+		height: 536px;
+		width: 1000px;
+		background-color: #fff;
+		margin: 0px auto;
+		padding: 10px;
+	}
+	
+		
+.input{
+    width: 210px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.button{
+    width: 110px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.validation{
+    color: #f00;
+    font-style: italic;
+}

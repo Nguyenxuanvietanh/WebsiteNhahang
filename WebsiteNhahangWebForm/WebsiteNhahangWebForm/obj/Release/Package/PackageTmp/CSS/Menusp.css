@@ -1,0 +1,39 @@
+﻿#main .menusp-cnt{
+	background-color: #000;
+}
+
+	#main .menusp-cnt .content{
+		width: 960px;
+		padding: 20px;
+		margin: 0px auto;
+		background-color: #fff;
+		text-align: center;	
+	}
+	
+	#main .menusp-cnt .content .sanpham{
+        padding: 10px;
+	}
+	
+		#main .menusp-cnt .content .sanpham ul{
+			
+		}
+		
+			#main .menusp-cnt .content .sanpham ul li{
+				width: 210px;
+				margin: 0 10px;
+				padding: 5px;
+			}
+
+.content img{
+		-webkit-transform:scale(0.95); 
+		-webkit-transition-duration: 0.5s;  
+		opacity: 0.9; 
+		margin: 0 10px 5px 0; 
+        border-radius: 20px; 
+        width: 313px;
+	}
+	
+	.content img:hover{
+		-webkit-transform:scale(1.0);
+		opacity: 1; 
+	}

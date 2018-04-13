@@ -1,0 +1,13 @@
+﻿#main .content{
+	background-color: #FFF;
+	padding: 20px;
+	text-align: center;
+	margin-left: 231px;
+    padding: 10px;
+}
+
+    .qldatban{
+        border: 1px dotted #333;
+        border-radius: 10px;
+        padding: 20px;
+    }
